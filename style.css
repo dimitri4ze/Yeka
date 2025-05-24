@@ -246,3 +246,8 @@ body {
 .mobile-menu.show {
   left: 0;
 }
+.logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
