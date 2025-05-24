@@ -125,9 +125,9 @@ body {
 }
 
 .spotify-embed {
-  width: 100%;
+  width: 40%;
   max-width: 600px;
-  height: 152px;
+  height: 352px;
   border: none;
   outline: none;
   background: transparent;
