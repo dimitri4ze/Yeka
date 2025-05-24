@@ -64,9 +64,20 @@ body {
 }
 .hero-overlay h1 {
   font-size: 4rem;
-  color: white;
-  text-shadow: 0 0 20px gold;
+  color: #fff;
+  text-shadow: 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffa500;
+  animation: glow 3s ease-in-out infinite alternate;
 }
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffa500;
+  }
+  to {
+    text-shadow: 0 0 20px #ffff33, 0 0 30px #ffaa00, 0 0 40px #ff6600;
+  }
+}
+
 
 .content {
   padding: 50px;
