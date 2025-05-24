@@ -63,7 +63,7 @@ body {
   align-items: center;
 }
 .hero-overlay h1 {
-  font-size: 10rem;
+  font-size: 7rem;
   color: white;
   text-shadow: 0 0 20px gold;
 }
@@ -116,7 +116,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.music-gallery {
+.music-gallery .music-row {
   padding: 40px 20px;
   text-align: center;
 }
