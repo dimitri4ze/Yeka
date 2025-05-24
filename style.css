@@ -227,7 +227,7 @@ body {
   width: 70%;
   height: 100%;
   padding: 30px 20px;
-  transition: left 0.3s ease;
+  transition: right 0.3s ease;
   display: flex;
   flex-direction: column;
   gap: 20px;
