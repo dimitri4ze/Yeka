@@ -239,19 +239,16 @@ body {
 .mobile-menu.show {
   left: 0;
 }
-/* Logo Container */
 .logo {
   display: flex;
   align-items: center;
-  height: 40px; /* Adjust based on your original header height */
+  height: 50px;
 }
 
-/* Logo Image */
 .logo img {
-  height: 100%;
-  max-height: 40px;
-  width: auto;
+  height: auto;
+  width: 150px; /* Increase for more visibility */
+  max-width: 80vw; /* Prevent overflow on small screens */
   display: block;
   object-fit: contain;
 }
-
