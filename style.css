@@ -80,20 +80,57 @@ body {
   gap: 20px;
   padding: 40px;
 }
-.photo-gallery .photo-row {
+.photo-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two per row */
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding: 40px;
-  justify-items: center;
+}
+.photo-grid img {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+.photo-grid img:hover {
+  transform: scale(1.05);
 }
 
-.photo-gallery img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  border-radius: 20px;
-  object-fit: cover;
+/* Lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 60px;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+.lightbox-content {
+  margin: auto;
+  max-width: 90%;
+  max-height: 80vh;
+}
+.close, .prev, .next {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  user-select: none;
+}
+.close {
+  top: 20px;
+  right: 35px;
+}
+.prev {
+  left: 15px;
+}
+.next {
+  right: 15px;
 }
 
 .site-footer {
