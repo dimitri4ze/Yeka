@@ -244,5 +244,5 @@ body {
 
 /* Show menu when active */
 .mobile-menu.show {
-  left: 0;
+  right: 0;
 }
