@@ -227,7 +227,7 @@ body {
   width: 70%;
   height: 100%;
   padding: 30px 20px;
-  transition: right 0.3s ease;
+  transition: left 0.3s ease;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -244,5 +244,5 @@ body {
 
 /* Show menu when active */
 .mobile-menu.show {
-  right: 0;
+  left: 0;
 }
