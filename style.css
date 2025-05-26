@@ -252,3 +252,8 @@ body {
   display: block;
   object-fit: contain;
 }
+@media (max-width: 600px) {
+  .logo-img {
+    width: 140px;
+  }
+}
