@@ -189,7 +189,7 @@ body {
   width: 100%;
   z-index: 9999;
   top: 0;
-  height: 50px; /* reduce height */
+  height: 60px; /* reduce height */
 }
 .header-inner {
   display: flex;
