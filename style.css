@@ -258,3 +258,25 @@ body {
     width: 140px;
   }
 }
+/* Hide hamburger on desktop */
+.hamburger {
+  display: none;
+}
+
+/* Show hamburger only on small screens */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: flex;
+  }
+}
+
+/* Optional: Hide mobile menu on desktop just in case */
+@media (min-width: 769px) {
+  .mobile-menu {
+    display: none !important;
+  }
+}
